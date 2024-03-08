@@ -5,24 +5,33 @@ h1{
 
 
 }
-body{
-    
-text-align: center;
-
-
-}
-
-
-*{
-    font-family: cursive;
-
-
-
-}
-img{
+.sus-main{
+    line-height: 3;
     text-align: center;
+    background: url("backgroud.jpg");
+    font-family: cur;
+
+}
+
+body{
+    background: url("../img/backgroud.jpg");
     
 
 
 }
 
+
+
+
+.amongus-image{
+    border-radius: 30px;
+    width: 40%;
+
+
+}
+
+.teste{
+    background-image: url("../img/fogo.gif");
+    color: transparent;
+    background-clip: text;
+}
