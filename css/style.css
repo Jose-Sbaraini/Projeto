@@ -6,8 +6,10 @@ h1{
 
 }
 .sus-main{
-
+    font-size: 0;
+    position: absolute;
     font-family: cursive;
+
 
 }
 
@@ -22,21 +24,28 @@ body{
 }
 
 .sus-1{
+    font-size: medium;
     background-color: brown;
     margin: auto 100px;
     text-align:center ;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
     
-
+    border-radius: 20px;
 
 }
 
 .sus-2{
+    font-size: medium;
+    padding: 10px;
     margin: auto 100px;
     text-align:center ;
-    float: left;
-
-
+    width: 40%;
+    height: 100%;
     background-color: blue;
+    border-radius: 20px;
+    float: right;
 }
 
 
@@ -52,4 +61,27 @@ body{
     background-image: url("../img/fogo.gif");
     color: transparent;
     background-clip: text;
+}
+
+.cian{
+
+    color: aqua;
+}
+
+.sus{
+    color: crimson;
+
+}
+
+img{
+    border-radius: 25px;
+
+}
+
+.crewin{
+    border-radius: 30px;
+    width: 40%;
+    display: none;
+
+
 }
