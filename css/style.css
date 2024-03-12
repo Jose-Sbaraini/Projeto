@@ -6,27 +6,45 @@ h1{
 
 }
 .sus-main{
-    line-height: 3;
-    text-align: center;
-    background: url("backgroud.jpg");
-    font-family: cur;
+
+    font-family: cursive;
 
 }
 
 body{
     background: url("../img/backgroud.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+
+.sus-1{
+    background-color: brown;
+    margin: auto 100px;
+    text-align:center ;
     
 
 
 }
 
+.sus-2{
+    margin: auto 100px;
+    text-align:center ;
+    float: left;
+
+
+    background-color: blue;
+}
 
 
 
 .amongus-image{
     border-radius: 30px;
     width: 40%;
-
+    
 
 }
 
