@@ -50,13 +50,6 @@ body{
 
 
 
-.amongus-image{
-    border-radius: 30px;
-    width: 40%;
-    
-
-}
-
 .teste{
     background-image: url("../img/fogo.gif");
     color: transparent;
@@ -81,7 +74,21 @@ img{
 .crewin{
     border-radius: 30px;
     width: 40%;
+    height: 200px;
+    
+
+
+}
+
+
+.amongus-image{
+    border-radius: 30px;
+    width: 40%;
+    height: 200px;
+
+}
+
+#abc{
+
     display: none;
-
-
 }

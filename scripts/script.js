@@ -1,5 +1,9 @@
 document.getElementById("amongus-image").addEventListener("click", function() {
-    document.getElementById("amongus-image").style.display = "none";
-    document.getElementById("crewin").style.display = "block";
-    document.getElementById("sus-2").style.textalign = "center";
+    document.getElementById("cba").style.display = "none";
+    document.getElementById("abc").style.display = "block";
+  });
+
+  document.getElementById("crewin").addEventListener("click", function() {
+    document.getElementById("abc").style.display = "none";
+    document.getElementById("cba").style.display = "block";
   });
