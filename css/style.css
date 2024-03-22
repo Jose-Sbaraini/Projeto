@@ -1,5 +1,5 @@
 .sus-main{
-    font-size: 0;
+    font-size: 0.4;
     position: absolute;
     font-family: cursive;
 
@@ -17,7 +17,7 @@ body{
 }
 
 .sus-1{
-    font-size: medium;
+    font-size: 1vw;
     background-color: green;
     margin: auto 100px;
     text-align:center ;
@@ -31,9 +31,9 @@ body{
 }
 
 .sus-2{
-    font-size: medium;
+    font-size: 1vw;
     padding: 10px;
-    margin: auto 100px;
+    margin: auto 5vw;
     text-align:center ;
     width: 40%;
     height: 100%;
@@ -63,28 +63,22 @@ body{
 
 img{
     border-radius: 25px;
+    width: 20vw;
 
 }
 
-.crewin{
-    border-radius: 30px;
-    width: 40%;
-    height: 200px;
-    
+img.crewin,img.imp,img.amongus-image{
+    border-radius: 25px;
+    width: 17vw;
 
-
+    height: 20vh;
 }
 
 
-.amongus-image{
-    border-radius: 30px;
-    width: 40%;
-    height: 200px;
 
-}
 
 #crewin{
-
+    
     display: none;
 }
 
@@ -97,7 +91,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1vw;
     text-decoration: none;
 }
 
@@ -105,8 +99,8 @@ nav a {
 nav ul{
     text-align: center;
     background-color: white;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 35vw;
+    margin-right: 35vw;
     border-radius: 200px;
 }
 
@@ -114,6 +108,8 @@ nav ul{
 nav li {
     list-style-type: none ;
     margin: 0 0 0 15px;
+    
+    
 }
 
 #imp{
@@ -121,9 +117,8 @@ nav li {
     display: none;
 }
 
-.imp{
+a{
+    font-size: 3vw;
 
-    border-radius: 30px;
-    width: 40%;
-    height: 200px;
+
 }

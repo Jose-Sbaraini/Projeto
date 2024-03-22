@@ -1,5 +1,5 @@
 
-var impost =(Math.random())*100
+let impost =(Math.random())*100
 
 
 
