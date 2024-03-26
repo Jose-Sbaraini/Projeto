@@ -1,6 +1,5 @@
-.sus-main{
-    font-size: 0.4;
-    position: absolute;
+.main{
+    font-size: 3vw;
     font-family: cursive;
 
 
@@ -16,31 +15,31 @@ body{
 
 }
 
-.sus-1{
-    font-size: 1vw;
+.main-1{
+    font-size: 25px;
     background-color: green;
-    margin: auto 100px;
     text-align:center ;
-    width: 40%;
-    height: 100%;
+    width: 30vw;
+    height: auto;
     padding: 10px;
     border: 15px black solid;
-    
+    margin-left: 10vw;
     border-radius: 20px;
 
 }
 
-.sus-2{
-    font-size: 1vw;
+.main-2{
+    font-size: 25px;
     padding: 10px;
-    margin: auto 5vw;
     text-align:center ;
-    width: 40%;
-    height: 100%;
+    width: 30vw;
+    height: auto;
     background-color: blue;
     border-radius: 20px;
     float: right;
     border: 15px black solid;
+    margin-right: 10vw;
+    
 }
 
 
@@ -91,7 +90,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -112,13 +111,17 @@ nav li {
     
 }
 
-#imp{
+#imp ,#impostor,#tripulantes{
 
     display: none;
 }
 
-a{
-    font-size: 3vw;
+.img-secret{
 
+    width: 25vw;
+}
+
+.secret{
+    
 
 }
