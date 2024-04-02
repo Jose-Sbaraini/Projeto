@@ -23,7 +23,7 @@ body{
     height: auto;
     padding: 10px;
     border: 15px black solid;
-    margin-left: 10vw;
+    margin-left: 5vw;
     border-radius: 20px;
 
 }
@@ -33,22 +33,16 @@ body{
     padding: 10px;
     text-align:center ;
     width: 30vw;
-    height: auto;
+    height: 99vh auto;
     background-color: blue;
     border-radius: 20px;
     float: right;
     border: 15px black solid;
-    margin-right: 10vw;
+    margin-right: 5vw;
     
 }
 
 
-
-.teste{
-    background-image: url("../img/fogo.gif");
-    color: transparent;
-    background-clip: text;
-}
 
 .cian{
 
@@ -121,7 +115,8 @@ nav li {
     width: 25vw;
 }
 
-.secret{
+#impostor p{
+    color: red;
     
 
 }
