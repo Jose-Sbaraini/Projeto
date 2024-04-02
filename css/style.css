@@ -1,9 +1,4 @@
-.main{
-    font-size: 3vw;
-    font-family: cursive;
 
-
-}
 
 body{
     background: url("../img/backgroud.jpg");
@@ -16,7 +11,6 @@ body{
 }
 
 .main-1{
-    font-size: 25px;
     background-color: green;
     text-align:center ;
     width: 30vw;
@@ -29,7 +23,6 @@ body{
 }
 
 .main-2{
-    font-size: 25px;
     padding: 10px;
     text-align:center ;
     width: 30vw;
@@ -118,5 +111,15 @@ nav li {
 #impostor p{
     color: red;
     
+
+}
+
+h1.texto{
+    font-size: 20px;
+
+}
+
+p.texto{
+    font-size: 10px;
 
 }
