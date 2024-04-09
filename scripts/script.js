@@ -12,7 +12,9 @@ document.getElementById("amongus-image").addEventListener("click", function() {
   if (impost>95) {
     document.getElementById("amongus-image").style.display = "none";
     document.getElementById("crewin").style.display = "block";
-    
+    document.getElementById("tripulantes").style.display = "block";
+    document.getElementById("base").style.display= "none";
+  
   }
   else if (impost<=95){
   document.getElementById("amongus-image").style.display = "none";

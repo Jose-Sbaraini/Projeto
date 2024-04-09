@@ -124,6 +124,16 @@ nav li {
 
 }
 
+#base p{
+    color: yellow;
+
+}
+
+
+#tripulantes p{
+    color: lawngreen;
+}
+
 h1.texto{
     font-size: 20px;
 
@@ -158,6 +168,7 @@ footer{
     margin-top: 20px;
     background-image: url(/img/fundo.jpg);
     border-radius: 5px;
+    position: relative;
 }
 
 footer p{
@@ -181,3 +192,27 @@ footer p{
     padding: 3px;
 }
 
+
+#main-tripulantes{
+    text-align: center;
+    background-color: blue;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.main-fail{
+    text-align: center;
+    background-color: gold;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+}
