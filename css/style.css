@@ -1,4 +1,6 @@
+*{margin: 0%;
 
+}
 
 body{
     background: url("../img/backgroud.jpg");
@@ -150,4 +152,19 @@ header{
     nav a {
         font-size: 10px;
     }
+}
+
+footer{
+    margin-top: 20px;
+    background-image: url(/img/fundo.jpg);
+    border-radius: 5px;
+}
+
+footer p{
+    color: white;
+}
+
+.copyrights{
+    font-size: 10px;
+
 }
