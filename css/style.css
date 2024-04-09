@@ -168,3 +168,16 @@ footer p{
     font-size: 10px;
 
 }
+
+#main-impostor{
+    text-align: center;
+    background-color: red;
+    border: 2vw black;
+    border-style: double;
+    width: 80vw;
+    left: 8.5vw ;
+    position: relative;
+    font-size: 20px;
+    padding: 3px;
+}
+
