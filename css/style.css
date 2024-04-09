@@ -165,7 +165,7 @@ header{
 
 footer{
     margin-top: 20px;
-    background-image: url(/img/fundo.jpg);
+    background-image: url("../img/fundo.jpg");
     border-radius: 5px;
 
 }
