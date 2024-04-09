@@ -57,7 +57,7 @@ img.crewin,img.imp,img.amongus-image{
     border-radius: 25px;
     width: 17vw;
 
-    height: 20vh;
+    
 }
 
 
@@ -71,6 +71,7 @@ img.crewin,img.imp,img.amongus-image{
 
 nav{
     text-align: center;
+    align-items: center;
 
 }
 nav a {
@@ -78,22 +79,29 @@ nav a {
     color: #000000;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
     text-decoration: none;
+    margin: 0px;
 }
 
 
 nav ul{
+    border-style:double;
+    border: 9px, black;
     text-align: center;
     background-color: white;
-    margin-left: 35vw;
-    margin-right: 35vw;
     border-radius: 200px;
+    width: 20vw;
+    padding: 0%;
+    left: calc(50% - 10vw) ;
+    position: relative;
 }
 
 
 nav li {
     list-style-type: none ;
     margin: 0 0 0 15px;
+    margin: 0px;
     
     
 }
@@ -120,6 +128,26 @@ h1.texto{
 }
 
 p.texto{
-    font-size: 10px;
+    font-size: 20px;
 
+}
+
+header{
+    text-align: center;
+}
+
+.texto{
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 959px) {
+    nav a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and  (max-width: 600px) {
+    nav a {
+        font-size: 10px;
+    }
 }
