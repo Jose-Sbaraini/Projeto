@@ -28,7 +28,7 @@ body{
     padding: 10px;
     text-align:center ;
     width: 30vw;
-    height: 99vh auto;
+    height: auto;
     background-color: blue;
     border-radius: 20px;
     float: right;
@@ -115,7 +115,7 @@ nav li {
 
 .img-secret{
 
-    width: 25vw;
+    width: 60%;
 }
 
 #impostor p{
@@ -167,7 +167,7 @@ footer{
     margin-top: 20px;
     background-image: url(/img/fundo.jpg);
     border-radius: 5px;
-    position: relative;
+
 }
 
 footer p{
