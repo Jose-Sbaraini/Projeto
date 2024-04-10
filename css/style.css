@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    height: 100vh;
     
 
 }
@@ -167,6 +167,8 @@ footer{
     margin-top: 20px;
     background-image: url("../img/fundo.jpg");
     border-radius: 5px;
+    position: relative;
+    bottom: 0;
 
 }
 
@@ -214,4 +216,11 @@ footer p{
     position: relative;
     font-size: 20px;
     padding: 3px;
+    min-height: 100%;
+
+
+}
+
+#marcado{
+    width: 60%;
 }
