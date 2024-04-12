@@ -148,9 +148,6 @@ header{
     text-align: center;
 }
 
-.texto{
-}
-
 @media only screen and (max-width: 959px) {
     nav a {
         font-size: 15px;
@@ -167,7 +164,8 @@ footer{
     margin-top: 20px;
     background-image: url("../img/fundo.jpg");
     border-radius: 5px;
-    position: relative;
+    position: absolute;
+    width: 100vw;
     bottom: 0;
 
 }
